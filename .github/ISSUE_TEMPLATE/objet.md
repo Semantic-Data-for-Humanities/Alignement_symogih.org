@@ -8,12 +8,12 @@ assignees: ''
 ---
 
 ### Résumé
-**Scope note**<br>
+**Scope note**
 
-**Lien**<br>
+**Lien**
 https://ontome.net/class/
 
-**Hiérarchie**<br>
+**Hiérarchie**
 subClassOf [sym:](https://ontome.net/class/)
 
 ### Alignement proposé
