@@ -2,7 +2,7 @@
 name: Objet
 about: Proposition d'alignement d'un objet
 title: ''
-labels: ''
+labels: ["Objet", "En cours"]
 assignees: ''
 
 ---
