@@ -13,7 +13,14 @@ assignees: ''
 **Lien**
 https://ontome.net/class/
 
-### Alignement proposé
+### Alignement
 
+**Alignement proposé** :
+
+#### Alignement des rôles
+
+| Rôle (tel qu'apparaissant dans OntoME) | Alignement | Notes |
+| -------------------------------------- | ---------- | ----- |
+| | |
 
 ### Commentaires
