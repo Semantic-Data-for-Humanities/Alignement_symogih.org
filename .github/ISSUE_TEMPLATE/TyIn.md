@@ -19,8 +19,8 @@ https://ontome.net/class/
 
 #### Alignement des rôles
 
-| Rôle (tel qu'apparaissant dans OntoME) | Alignement | Notes |
-| -------------------------------------- | ---------- | ----- |
-| | |
+| Rôle (tel qu'apparaissant dans OntoME) | Range | Alignement | Notes |
+| -------------------------------------- | ----- | ---------- | ----- |
+| [sym:](https://ontome.net/property/)   | [sym:](https://ontome.net/class/) | | |
 
 ### Commentaires
