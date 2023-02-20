@@ -13,6 +13,8 @@ assignees: ''
 **Lien**
 https://ontome.net/class/
 
+**Nombre d'informations**
+
 ### Alignement
 
 **Alignement proposé** :
