@@ -1,0 +1,618 @@
+{
+	"https://ontome.net/ns/ontome-internal-model/": [
+		{
+			"version": null,
+			"id": 4
+		}
+	],
+	"http://www.cidoc-crm.org/cidoc-crm/": [
+		{
+			"version": "7.1.2",
+			"id": 188
+		},
+		{
+			"version": "5.0.4",
+			"id": 187
+		},
+		{
+			"version": "6.2",
+			"id": 1
+		}
+	],
+	"http://www.ics.forth.gr/isl/CRMgeo/": [
+		{
+			"version": "1.2",
+			"id": 9
+		}
+	],
+	"http://www.opengis.net/ont/geosparql#": [
+		{
+			"version": null,
+			"id": 41
+		}
+	],
+	"https://ontome.net/ns/sdhss/": [
+		{
+			"version": null,
+			"id": 17
+		},
+		{
+			"version": null,
+			"id": 3
+		}
+	],
+	"https://ontome.net/ns/symogih/": [
+		{
+			"version": "<p>1.3</p>",
+			"id": 2
+		}
+	],
+	"http://iflastandards.info/ns/fr/frbr/frbroo/": [
+		{
+			"version": null,
+			"id": 6
+		}
+	],
+	"https://ontome.net/ns/your-project/": [
+		{
+			"version": null,
+			"id": 15
+		}
+	],
+	"http://www.cidoc-crm.org/cidoc-crm/CRMsci/": [
+		{
+			"version": "1.3",
+			"id": 193
+		},
+		{
+			"version": "1.2.3",
+			"id": 18
+		}
+	],
+	"http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/": [
+		{
+			"version": "1.4.1",
+			"id": 20
+		}
+	],
+	"https://ontome.net/ns/cpm/": [
+		{
+			"version": null,
+			"id": 52
+		},
+		{
+			"version": null,
+			"id": 22
+		}
+	],
+	"https://ontome.net/ns/crmsoc_miscellanea/": [
+		{
+			"version": null,
+			"id": 24
+		}
+	],
+	"https://ontome.net/ns/apis/": [
+		{
+			"version": null,
+			"id": 28
+		}
+	],
+	"https://ontome.net/ns/geovistory/": [
+		{
+			"version": null,
+			"id": 30
+		}
+	],
+	"https://ontome.net/ns/edm/": [
+		{
+			"version": null,
+			"id": 32
+		}
+	],
+	"https://ontome.net/ns/refovote/": [
+		{
+			"version": null,
+			"id": 34
+		}
+	],
+	"https://ontome.net/ns/silknow/": [
+		{
+			"version": null,
+			"id": 36
+		}
+	],
+	"https://ontome.net/ns/read-it/": [
+		{
+			"version": null,
+			"id": 38
+		}
+	],
+	"https://ontome.net/ns/mittelhochdeutsche-begriffsdatenbank/": [
+		{
+			"version": null,
+			"id": 40
+		}
+	],
+	"https://ontome.net/ns/crminf/": [
+		{
+			"version": null,
+			"id": 42
+		}
+	],
+	"https://ontome.net/ns/pcp-on-web-project-vocabulary/": [
+		{
+			"version": null,
+			"id": 45
+		}
+	],
+	"http://www.ics.forth.gr/isl/CRMdig/": [
+		{
+			"version": "4.0 unstable",
+			"id": 211
+		},
+		{
+			"version": "4.0",
+			"id": 208
+		},
+		{
+			"version": "3.2.1",
+			"id": 47
+		}
+	],
+	"https://ontome.net/ns/my-sandbox-project/": [
+		{
+			"version": null,
+			"id": 49
+		}
+	],
+	"https://ontome.net/ns/joschne_sandbox/": [
+		{
+			"version": null,
+			"id": 51
+		}
+	],
+	"https://ontome.net/ns/spatialhierarchy/": [
+		{
+			"version": null,
+			"id": 25
+		}
+	],
+	"https://ontome.net/ns/xmlschema/": [
+		{
+			"version": null,
+			"id": 26
+		}
+	],
+	"https://ontome.net/ns/myproject/": [
+		{
+			"version": null,
+			"id": 56
+		}
+	],
+	"https://ontome.net/ns/positiones-congregationis-concilii/": [
+		{
+			"version": null,
+			"id": 58
+		}
+	],
+	"https://ontome.net/ns/test-gv/": [
+		{
+			"version": null,
+			"id": 60
+		}
+	],
+	"https://ontome.net/ns/evidence-based-storylines/": [
+		{
+			"version": null,
+			"id": 62
+		}
+	],
+	"https://ontome.net/ns/usaybia-net/": [
+		{
+			"version": null,
+			"id": 64
+		}
+	],
+	"https://ontome.net/ns/maritime-history/": [
+		{
+			"version": null,
+			"id": 66
+		}
+	],
+	"https://ontome.net/ns/slwa-pictorial-item/": [
+		{
+			"version": null,
+			"id": 68
+		}
+	],
+	"https://ontome.net/ns/pressoo/": [
+		{
+			"version": null,
+			"id": 70
+		}
+	],
+	"https://ontome.net/ns/dsi-test/": [
+		{
+			"version": null,
+			"id": 72
+		}
+	],
+	"https://ontome.net/ns/intellectual-literary-life/": [
+		{
+			"version": null,
+			"id": 74
+		}
+	],
+	"https://ontome.net/ns/sound/": [
+		{
+			"version": null,
+			"id": 76
+		}
+	],
+	"https://ontome.net/ns/music-circulation-and-provenance/": [
+		{
+			"version": null,
+			"id": 78
+		}
+	],
+	"https://ontome.net/ns/alignment-symogih-cidoc-crm/": [
+		{
+			"version": null,
+			"id": 80
+		}
+	],
+	"https://ontome.net/ns/hisarc-rdf/": [
+		{
+			"version": "<p>0.0.1</p>",
+			"id": 82
+		}
+	],
+	"https://ontome.net/ns/test-namespace/": [
+		{
+			"version": "Version 6",
+			"id": 84
+		}
+	],
+	"https://ontome.net/ns/lpo/": [
+		{
+			"version": null,
+			"id": 86
+		}
+	],
+	"https://ontome.net/ns/processetti/": [
+		{
+			"version": null,
+			"id": 88
+		}
+	],
+	"https://ontome.net/ns/history-of-heralds-ontologie/": [
+		{
+			"version": null,
+			"id": 90
+		}
+	],
+	"https://ontome.net/ns/apc/": [
+		{
+			"version": null,
+			"id": 92
+		}
+	],
+	"https://ontome.net/ns/mcq-test/": [
+		{
+			"version": null,
+			"id": 94
+		}
+	],
+	"https://ontome.net/ns/litep/": [
+		{
+			"version": null,
+			"id": 96
+		}
+	],
+	"https://ontome.net/ns/normative-text--legislation-/": [
+		{
+			"version": null,
+			"id": 98
+		}
+	],
+	"https://ontome.net/ns/krater/": [
+		{
+			"version": null,
+			"id": 100
+		}
+	],
+	"https://ontome.net/ns/cimeti--res-et-s--pultures/": [
+		{
+			"version": null,
+			"id": 102
+		}
+	],
+	"https://ontome.net/ns/ghp/": [
+		{
+			"version": null,
+			"id": 104
+		}
+	],
+	"https://ontome.net/ns/ontologie-des-lieux-qui---voluent-au-cours-du-temps/": [
+		{
+			"version": null,
+			"id": 106
+		}
+	],
+	"https://ontome.net/ns/images-circulation/": [
+		{
+			"version": null,
+			"id": 108
+		}
+	],
+	"https://ontome.net/ns/sdh-crm-supplement/": [
+		{
+			"version": null,
+			"id": 110
+		}
+	],
+	"https://ontome.net/ns/social-legal-economic-life/": [
+		{
+			"version": null,
+			"id": 112
+		}
+	],
+	"https://ontome.net/ns/crmba/": [
+		{
+			"version": "1.4",
+			"id": 114
+		}
+	],
+	"https://ontome.net/ns/city/": [
+		{
+			"version": null,
+			"id": 116
+		}
+	],
+	"https://ontome.net/ns/namespace-al/": [
+		{
+			"version": null,
+			"id": 118
+		}
+	],
+	"https://ontome.net/ns/artandarthist/": [
+		{
+			"version": null,
+			"id": 120
+		}
+	],
+	"https://ontome.net/ns/crmsoc/": [
+		{
+			"version": null,
+			"id": 122
+		}
+	],
+	"https://ontome.net/ns/sites/": [
+		{
+			"version": null,
+			"id": 124
+		}
+	],
+	"https://ontome.net/ns/historique-des-unit--s-administratives-fran--aises/": [
+		{
+			"version": null,
+			"id": 126
+		}
+	],
+	"https://ontome.net/ns/facto--des/": [
+		{
+			"version": null,
+			"id": 128
+		}
+	],
+	"https://ontome.net/ns/legal-provisions-ontology--lpo-/": [
+		{
+			"version": null,
+			"id": 130
+		}
+	],
+	"https://ontome.net/ns/lumieres/": [
+		{
+			"version": null,
+			"id": 132
+		}
+	],
+	"https://ontome.net/ns/any-artefact-v-1/": [
+		{
+			"version": null,
+			"id": 134
+		}
+	],
+	"https://ontome.net/ns/written-artefact/": [
+		{
+			"version": null,
+			"id": 136
+		}
+	],
+	"https://ontome.net/ns/higher-education-and-academies/": [
+		{
+			"version": null,
+			"id": 138
+		}
+	],
+	"https://ontome.net/ns/voc-project-namespace/": [
+		{
+			"version": null,
+			"id": 140
+		}
+	],
+	"https://ontome.net/ns/archeological-excavation-and-finds/": [
+		{
+			"version": null,
+			"id": 142
+		}
+	],
+	"https://ontome.net/ns/ats/": [
+		{
+			"version": null,
+			"id": 144
+		}
+	],
+	"https://ontome.net/ns/acawai/": [
+		{
+			"version": null,
+			"id": 146
+		}
+	],
+	"https://ontome.net/ns/heraudica-seminar/": [
+		{
+			"version": null,
+			"id": 148
+		}
+	],
+	"https://ontome.net/ns/root-of-demindias-test/": [
+		{
+			"version": null,
+			"id": 150
+		}
+	],
+	"https://ontome.net/ns/crmact/": [
+		{
+			"version": null,
+			"id": 152
+		}
+	],
+	"https://ontome.net/ns/sdhss-sources/": [
+		{
+			"version": null,
+			"id": 154
+		}
+	],
+	"https://ontome.net/ns/starstypes/": [
+		{
+			"version": null,
+			"id": 156
+		}
+	],
+	"https://ontome.net/ns/voeska-ns/": [
+		{
+			"version": null,
+			"id": 158
+		}
+	],
+	"https://ontome.net/ns/social-life-specific/": [
+		{
+			"version": null,
+			"id": 160
+		}
+	],
+	"https://ontome.net/ns/testnamespace/": [
+		{
+			"version": null,
+			"id": 162
+		}
+	],
+	"https://ontome.net/ns/forestry/": [
+		{
+			"version": null,
+			"id": 164
+		}
+	],
+	"http://portraits.hab.de/": [
+		{
+			"version": null,
+			"id": 166
+		}
+	],
+	"https://ontome.net/ns/typometrie/": [
+		{
+			"version": null,
+			"id": 168
+		}
+	],
+	"https://ontome.net/ns/diversa-database/": [
+		{
+			"version": null,
+			"id": 170
+		}
+	],
+	"http://momaf-data.utu.fi/": [
+		{
+			"version": "<p>0.1</p>",
+			"id": 172
+		}
+	],
+	"https://ontome.net/ns/wae/": [
+		{
+			"version": null,
+			"id": 174
+		}
+	],
+	"https://ontome.net/ns/labinvirtuo/": [
+		{
+			"version": null,
+			"id": 178
+		}
+	],
+	"https://ontome.net/ns/ffcc-andalucia-ongoing/": [
+		{
+			"version": null,
+			"id": 184
+		}
+	],
+	"https://ontome.net/ns/education/": [
+		{
+			"version": null,
+			"id": 186
+		}
+	],
+	"https://ontome.net/ns/laho/": [
+		{
+			"version": null,
+			"id": 190
+		}
+	],
+	"https://ontome.net/ns/gemenet/": [
+		{
+			"version": "0.1",
+			"id": 192
+		}
+	],
+	"http://data.doremus.org/ontology#": [
+		{
+			"version": "0.2.9ontome",
+			"id": 195
+		}
+	],
+	"https://ontome.net/ns/ngtest/": [
+		{
+			"version": null,
+			"id": 199
+		}
+	],
+	"https://ontome.net/ns/voyage-transport-and-displacement/": [
+		{
+			"version": null,
+			"id": 201
+		}
+	],
+	"https://ontome.net/ns/projet-movies-abes": [
+		{
+			"version": null,
+			"id": 205
+		}
+	],
+	"https://ontome.net/ns/pas-test-namespace": [
+		{
+			"version": null,
+			"id": 207
+		}
+	],
+	"https://r11.eu/ontology": [
+		{
+			"version": null,
+			"id": 210
+		}
+	],
+	"https://ontome.net/ns/crmsurv/": [
+		{
+			"version": null,
+			"id": 213
+		}
+	]
+}

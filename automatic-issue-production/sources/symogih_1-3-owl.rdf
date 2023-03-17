@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF8" ?><error code="500" message="Error: An exception occurred while executing 'SELECT result::text FROM api.get_classes_and_properties_for_namespace(:lang, :namespace) as result;' with params ["en", 2]:
+
+SQLSTATE[53200]: Out of memory: 7 ERREUR:  mémoire partagée épuisée
+HINT:  Vous pourriez avoir besoin d'augmenter max_locks_per_transaction.
+CONTEXT:  instruction SQL « CREATE TEMP TABLE tmp_label ON COMMIT DROP AS
+					SELECT 
+						lbl.pk_label,
+						lbl.label,
+						lbl.language_iso_code,
+						lbl.is_standard_label_for_language
+					FROM che.label lbl
+					WHERE lbl.language_iso_code = 'en' AND fk_class  = 127 AND is_standard_label_for_language
+					LIMIT 1
+				 »
+fonction PL/pgsql che.get_label(text,integer,text), ligne 26 à instruction EXECUTE
+instruction SQL « CREATE TEMP TABLE tmp_grouped_class_list ON COMMIT DROP
+		AS
+		WITH tw1 AS (
+		SELECT DISTINCT
+						pk_class,
+						class_uri,
+						identifier_in_namespace
+		FROM tmp_class_list
+		UNION
+		SELECT DISTINCT 
+						pk_parent_class AS pk_class,
+						parent_class_class_uri AS class_uri,
+						parent_class_identifier_in_namespace identifier_in_namespace
+		FROM tmp_class_list
+		),
+		tw2 AS (	
+		SELECT DISTINCT pk_class,
+		      che.get_label('class',pk_class,lang) class_label,	
+					che.get_text_property('class',pk_class,lang,1) class_scope_note,
+							--(property_label).language_iso_code property_label_language,
+					tw1.class_uri,
+					identifier_in_namespace
+		FROM tw1
+		UNION  
+		SELECT DISTINCT has_domain pk_class,
+					che.get_label('class',has_domain,lang) class_label,	
+					che.get_text_property('class',has_domain,lang,1) class_scope_note,
+					domain_uri AS class_uri,
+					domain_identifier_in_namespace AS identifier_in_namespace
+		FROM tmp_properties_list
+		UNION  
+		SELECT has_range pk_class,
+					che.get_label('class',has_range,lang) class_label,	
+					che.get_text_property('class',has_range,lang,1) class_scope_note,
+					range_uri AS class_uri,
+					range_identifier_in_namespace identifier_in_namespace
+
+		FROM tmp_properties_list)
+		
+		SELECT DISTINCT 
+						tw2.class_uri,
+						tw2.identifier_in_namespace,
+						MAX((class_label).label) class_label,
+						MAX((class_label).language_iso_code) class_label_language_iso_code,
+						MAX((class_scope_note).text_property) AS class_scope_note,
+						MAX((class_scope_note).language_iso_code) AS scope_note_language_iso_code,
+		        STRING_AGG('<rdfs:subClassOf><owl:Class rdf:about="' || t1.parent_class_class_uri ||  '"/></rdfs:subClassOf>','') AS subclass_of
+		FROM tw2
+		  LEFT JOIN tmp_class_list t1 ON t1.pk_class = tw2.pk_class
+		GROUP BY tw2.pk_class,
+		         tw2.class_uri,
+		         tw2.identifier_in_namespace »
+fonction PL/pgsql api.get_classes_and_properties_for_namespace(text,integer), ligne 171 à instruction SQL"/>
