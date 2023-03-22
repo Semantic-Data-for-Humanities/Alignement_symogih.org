@@ -22,8 +22,6 @@ subClassOf [sym:](https://ontome.net/class/)
 
 #### Alignement des relations
 
-#### Alignement des relations
-
 | Relation | Alignement | Notes |
 | -------- | ---------- | ----- |
 
