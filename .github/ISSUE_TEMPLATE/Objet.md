@@ -16,7 +16,15 @@ https://ontome.net/class/
 **Hiérarchie**
 subClassOf [sym:](https://ontome.net/class/)
 
-### Alignement proposé
+### Alignement
 
+#### Alignement proposé
+
+#### Alignement des relations
+
+#### Alignement des relations
+
+| Relation | Alignement | Notes |
+| -------- | ---------- | ----- |
 
 ### Commentaires
