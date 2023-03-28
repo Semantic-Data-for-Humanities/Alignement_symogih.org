@@ -17,7 +17,8 @@ https://ontome.net/class/
 
 ### Alignement
 
-**Alignement proposé** :
+#### Alignement proposé
+equivalentClass
 
 #### Alignement des rôles
 
