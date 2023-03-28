@@ -13,12 +13,16 @@ assignees: ''
 **Lien**
 https://ontome.net/class/
 
+**Nombre d'objets**
+
+
 **Hiérarchie**
 subClassOf [sym:](https://ontome.net/class/)
 
 ### Alignement
 
 #### Alignement proposé
+equivalentClass 
 
 #### Alignement des relations
 
